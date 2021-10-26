@@ -1,0 +1,151 @@
+#container {
+    background: lightblue;
+    height: 700px;
+    width: 525px;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: -2;
+}
+
+#cat {
+    margin-left: 160px;
+    margin-top: 190px;
+    position: relative;
+}
+
+#face {
+    background: darkgrey;
+    height: 120px;
+    width: 130px;
+    margin-left: 20px;
+    border-radius: 55px;
+}
+
+#ear-L, #ear-R {
+    height: 0px;
+    width: 0px;
+    border-bottom: 50px solid darkgrey;
+    border-left: 30px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+}
+
+#ear-R {
+    bottom: 80px;
+    transform: rotate(35deg);
+    left: 90px;
+}
+
+#ear-L {
+    bottom: 30px;
+    right: 10px;
+    transform: rotate(-35deg);
+}
+
+#innerEar-L, #innerEar-R {
+    height: 0px;
+    width: 0px;
+    border-bottom: 35px solid rgb(114, 114, 114);
+    border-left: 15px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+}
+
+#innerEar-R {
+    bottom: 153px;
+    transform: rotate(38deg);
+    left: 100px;
+}
+
+#innerEar-L {
+    bottom: 120px;
+    left: 7px;
+    transform: rotate(-35deg);
+}
+
+#eye-L, #eye-R {
+    background: rgb(179, 221, 106);
+    height: 25px;
+    width: 28px;
+    border-radius: 50px;
+    position: relative;
+}
+
+#eye-L {
+    bottom: 155px;
+    left: 30px;
+}
+
+#eye-R {
+    bottom: 180px;
+    left: 73px;
+}
+
+#pupil-L, #pupil-R {
+    background: rgb(0, 0, 0);
+    height: 21px;
+    width: 21px;
+    border-radius: 50px;
+    position: relative;
+}
+
+#pupil-L {
+    bottom: 203px;
+    left: 36px;
+}
+
+#pupil-R {
+    bottom: 224px;
+    left: 74px;
+}
+
+#eyelid-L {
+    background:darkgrey;
+    height: 25px;
+    width: 28px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 2;
+    bottom: 0px;
+    left: 30px;
+    animation: mymove 1s infinite;
+}
+
+/* @keyframes mymove {
+    from {top: -155px;}
+    to {top: -130px;}
+} */
+
+#nose {
+    height: 0px;
+    width: 0px;
+    border-bottom: 9px solid rgb(233, 108, 145);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: relative;
+    transform: rotate(180deg);
+    left: 55px;
+    bottom: 213px;
+    position: relative;
+}
+
+#body {
+    background: darkgrey;
+    bottom: 15px;
+    height: 190px;
+    width: 180px;
+    border-radius: 80px;
+    position: relative;
+}
+
+#tail {
+    background: rgb(153, 152, 152);
+    position: relative;
+    height: 30px;
+    width: 140px;
+    top: 160px;
+    left: 100px;
+    border-radius: 100%;
+    z-index: -1;
+}
