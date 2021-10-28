@@ -112,10 +112,10 @@
     animation: mymove 1s infinite;
 }
 
-/* @keyframes mymove {
+@keyframes mymove {
     from {top: -155px;}
     to {top: -130px;}
-} */
+}
 
 #nose {
     height: 0px;
